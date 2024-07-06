@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+Blutech Solutions LLC - Front-End Test project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PROJECT OVERVIEW
 
-Currently, two official plugins are available:
+This project is involves implementing a UI based on a provided Figma design and integrating it with an API using API Context state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TECHNOLOGIES USED
 
-## Expanding the ESLint configuration
+- React : A Javascript library for building user interfaces.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Typescript : A typed superset of javascript that compiles to plain javascript.
 
-- Configure the top-level `parserOptions` property like this:
+- Tailwind Css : A utility-first Css framework for rapidly vuilding custom designs.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Axios : A promise-based HTTP client for making API request.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+API INTEGRATION
+
+The application fetches data from the following endpoint : API Endpoint - "http://3.88.1.181:8000/products/public/catalog"
+
+API CONTEXT
+
+The state is managed using API Context. The context provides an easy way to manage and access the API data throughout the application.
