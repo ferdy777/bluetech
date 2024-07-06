@@ -2,7 +2,7 @@ Blutech Solutions LLC - Front-End Test project
 
 PROJECT OVERVIEW
 
-This project is involves implementing a UI based on a provided Figma design and integrating it with an API using API Context state management.
+This project involves implementing a UI based on a provided Figma design and integrating it with an API using API Context state management.
 
 TECHNOLOGIES USED
 
